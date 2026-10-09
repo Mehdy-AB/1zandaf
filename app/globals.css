@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #05060a;
+  --color-slate-deep: #0b0d14;
+  --color-panel: #10131c;
+  --color-line: #1e2333;
+  --color-muted: #8b93a7;
+  --color-neon: #7c5cff;
+  --color-cyan: #22d3ee;
+  --color-pink: #f472b6;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-grotesk), ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+  background: var(--color-ink);
+}
+
+body {
+  background: var(--color-ink);
+  color: #e8ebf3;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--color-neon);
+  color: white;
+}
+
+.text-gradient {
+  background: linear-gradient(100deg, var(--color-cyan), var(--color-neon) 45%, var(--color-pink));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.bg-grid {
+  background-image:
+    linear-gradient(to right, rgb(255 255 255 / 0.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(255 255 255 / 0.035) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(ellipse at center, black 30%, transparent 75%);
+}
+
+/* Gradient hairline border for glass cards */
+.glow-border {
+  position: relative;
+  background: linear-gradient(180deg, rgb(255 255 255 / 0.04), rgb(255 255 255 / 0.01));
+  border: 1px solid var(--color-line);
+}
+.glow-border::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(135deg, var(--color-cyan), var(--color-neon), var(--color-pink));
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;
+}
+.glow-border:hover::before {
+  opacity: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

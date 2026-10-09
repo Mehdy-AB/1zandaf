@@ -1,0 +1,130 @@
+[
+  {
+    "category": "PC Specs",
+    "title": "AMD Ryzen 5 5600X",
+    "description": "6-Core 12-Thread Desktop Processor",
+    "image": "/images/gear/ryzen-5600x.jpg",
+    "buyLink": "https://www.amazon.com/dp/B08166SLDF",
+    "tag": "CPU"
+  },
+  {
+    "category": "PC Specs",
+    "title": "AMD Radeon RX 6700 XT",
+    "description": "12GB GDDR6 High-Performance Graphics Card",
+    "image": "/images/gear/rx-6700xt.jpg",
+    "buyLink": "https://www.amazon.com/s?k=rx+6700+xt",
+    "tag": "GPU"
+  },
+  {
+    "category": "PC Specs",
+    "title": "Asgard White 32GB RAM",
+    "description": "32GB (2x16GB) 3200MHz DDR4 Gaming RAM",
+    "image": "/images/gear/asgard-ram.jpg",
+    "buyLink": "https://www.aliexpress.com/",
+    "tag": "RAM"
+  },
+  {
+    "category": "PC Specs",
+    "title": "MSI MAG B550M PRO-VDH WiFi",
+    "description": "AMD AM4 Micro-ATX Motherboard",
+    "image": "/images/gear/msi-b550.jpg",
+    "buyLink": "https://www.amazon.com/dp/B089D1YG11",
+    "tag": "Motherboard"
+  },
+  {
+    "category": "PC Specs",
+    "title": "Mars Gaming ML-ULTRA 360",
+    "description": "360mm Liquid Cooler - Black",
+    "image": "/images/gear/mars-cooling.jpg",
+    "buyLink": "https://www.amazon.com/dp/B0BXPFV1CX",
+    "tag": "Cooler"
+  },
+  {
+    "category": "PC Specs",
+    "title": "MSI MAG 850W Gold",
+    "description": "850W 80 Plus Gold Fully Modular PSU",
+    "image": "/images/gear/msi-psu.jpg",
+    "buyLink": "https://www.amazon.com/dp/B0CB9MSJ5N",
+    "tag": "PSU"
+  },
+  {
+    "category": "PC Specs",
+    "title": "Magma V3 (7 Fans Included)",
+    "description": "High Airflow ATX Gaming PC Case",
+    "image": "",
+    "buyLink": "https://www.amazon.com/",
+    "tag": "Case"
+  },
+  {
+    "category": "PC Specs",
+    "title": "Samsung NVMe SSD 250GB",
+    "description": "Fast High-Speed Boot Drive",
+    "image": "/images/gear/samsung-nvme.jpg",
+    "buyLink": "https://www.amazon.com/dp/B07CGGNX7S",
+    "tag": "Storage"
+  },
+  {
+    "category": "PC Specs",
+    "title": "Teamgroup SATA SSD",
+    "description": "Secondary Storage SSD",
+    "image": "/images/gear/teamgroup-ssd.jpg",
+    "buyLink": "https://www.amazon.com/dp/B08CKFDPJ3",
+    "tag": "Storage"
+  },
+  {
+    "category": "Peripherals & Accessories",
+    "title": "Logitech G PRO X Superlight 2",
+    "description": "Ultra-lightweight Wireless Gaming Mouse - Black",
+    "image": "/images/gear/superlight-2.jpg",
+    "buyLink": "https://www.amazon.com/dp/B09NBWL8J5",
+    "tag": "Mouse"
+  },
+  {
+    "category": "Peripherals & Accessories",
+    "title": "Epomaker HE68 Lite",
+    "description": "Hall Effect Magnetic Switch Custom Gaming Keyboard",
+    "image": "/images/gear/epomaker-he68.jpg",
+    "buyLink": "https://www.amazon.com/dp/B0H8NQQ7B2",
+    "tag": "Keyboard"
+  },
+  {
+    "category": "Peripherals & Accessories",
+    "title": "ATK Gear Sky Black",
+    "description": "Premium Control/Speed Desk Mousepad",
+    "image": "/images/gear/atk-mousepad.jpg",
+    "buyLink": "https://www.amazon.com/dp/B0FNM91C5Z",
+    "tag": "Mousepad"
+  },
+  {
+    "category": "Peripherals & Accessories",
+    "title": "HyperX Cloud II",
+    "description": "Gaming Headset with 7.1 Surround Sound - Black",
+    "image": "/images/gear/hyperx-cloud2.jpg",
+    "buyLink": "https://www.amazon.com/dp/B00SAYCXWG",
+    "tag": "Headset"
+  },
+  {
+    "category": "Peripherals & Accessories",
+    "title": "MSI 275QF Gaming Monitor",
+    "description": "27\" High Refresh Rate Gaming Display",
+    "image": "/images/gear/msi-275qf.jpg",
+    "buyLink": "https://www.amazon.com/dp/B0GP9F7MY4",
+    "tag": "Monitor"
+  },
+  {
+    "category": "Peripherals & Accessories",
+    "title": "Vortex VRX54-C012HL",
+    "description": "Heavy-Duty Heavy-Load Monitor Arm Desk Mount",
+    "image": "",
+    "buyLink": "https://www.amazon.com/",
+    "tag": "Desk Mount"
+  },
+  {
+    "category": "Peripherals & Accessories",
+    "title": "Ergonomic Office/Gaming Chair",
+    "description": "Full Lumbar Support Mesh Ergonomic Chair - Black",
+    "image": "/images/gear/ergo-chair.jpg",
+    "buyLink": "https://www.amazon.com/dp/B0GVMQ3Q59",
+    "tag": "Furniture"
+  }
+]
